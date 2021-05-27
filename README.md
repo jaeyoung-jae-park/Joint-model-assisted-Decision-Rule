@@ -3,7 +3,9 @@
 
 ## Requirements
 
-No requirements if you run the code in Google Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras.
+No requirements if you run the code in Google Colab. We strongly encourage you to use Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras. 
+
+To download the dataset of Toxic comments, there are two options: 1) using Kaggle API; or 2) loading it from your local drive. If you want to use Kaggle API, you should create new API token. Here is the reference: https://galhever.medium.com/how-to-import-data-from-kaggle-to-google-colab-8160caa11e2.
 
 To install requirements:
 
