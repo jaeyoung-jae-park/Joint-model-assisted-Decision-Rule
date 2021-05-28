@@ -1,6 +1,6 @@
 # Can a joint model assist target label prediction? Conditions and approaches
 
-This code package is about _Application to other open datasets_.
+This code package is about __Application to other open datasets__ in the paper. To reproduce the results of __Synthetic dataset__, refer to _ModelAssistClassify.tar.gz_.
 
 ## Requirements
 
