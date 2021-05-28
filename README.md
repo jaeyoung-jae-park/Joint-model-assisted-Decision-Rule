@@ -43,16 +43,8 @@ It has all the models for each dataset. You can download them or copy them to yo
 
 ## Results
 
-Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
-![alt text]https://github.com/jaeyoung-jae-park/Joint-model-assisted-Decision-Rule/blob/main/Result.png
-
+Our model performance can be found here: 
+https://docs.google.com/spreadsheets/d/1FFg9grIVR8UMULwsbEUPzN4vWJYwTHDkBc_JMCLQGPI/edit?usp=sharing
 
 
 
