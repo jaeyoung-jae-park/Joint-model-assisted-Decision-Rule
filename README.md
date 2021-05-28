@@ -51,6 +51,8 @@ Our model achieves the following performance on :
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
 
+![alt text]https://github.com/jaeyoung-jae-park/Joint-model-assisted-Decision-Rule/blob/main/Result.png
+
 
 
 
