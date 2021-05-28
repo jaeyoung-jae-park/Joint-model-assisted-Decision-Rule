@@ -1,5 +1,6 @@
 # Can a joint model assist target label prediction? Conditions and approaches
 
+This code package is about _Application to other open datasets_.
 
 ## Requirements
 
