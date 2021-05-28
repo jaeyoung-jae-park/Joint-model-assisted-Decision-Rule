@@ -3,7 +3,7 @@
 
 ## Requirements
 
-No requirements if you run the code in Google Colab. The code works properly when using Google Colab and Google drive, so we strongly encourage you to use Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras. 
+No requirements if you run the codes in Google Colab. The codes work properly when using Google Colab and Google drive, so we strongly encourage you to use Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras. 
 
 ## Table of contents
 
