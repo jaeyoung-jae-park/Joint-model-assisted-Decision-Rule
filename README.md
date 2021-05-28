@@ -3,45 +3,43 @@
 
 ## Requirements
 
-No requirements if you run the code in Google Colab. We strongly encourage you to use Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras. 
+No requirements if you run the code in Google Colab. The code works properly when using Google Colab and Google drive, so we strongly encourage you to use Colab. Otherwise, you need pandas, numpy, sklearn, tensorflow, and keras. 
 
-To download the dataset of Toxic comments, there are two options: 1) using Kaggle API; or 2) loading it from your local drive. If you want to use Kaggle API, you should create new API token. Here is the reference: https://galhever.medium.com/how-to-import-data-from-kaggle-to-google-colab-8160caa11e2.
+## Table of contents
 
-To install requirements:
+Each jupyter notebook has the same table of contents.
 
-```setup
-pip install -r requirements.txt
-```
+- Data preparation
+--- Data loading
+--- Label setting
+- Hyperparameter settings
+--- Baseline
+--- NN and NN-joint
+--- CIDNN
+--- Joint-model-assisted linear/nonlinear decision rules (LDR/NLDR)
+- Training
+- Evaluation
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+## Data preparation
+
+The guideline of how to download and load the datasets in the paper is described. The label setting also is decribed.
 
 ## Training
 
-To train the model(s) in the paper, run this command:
+Once loading the dataset is done, run all the codes in the section of Hyperparameter settings. Then, run the code in the section of Training, following the guideline in the jupyter notebook.
 
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+To evaluate the models, run the code in the section of Evaluation, following the guideline in the jupyter notebook.
 
 ## Pre-trained Models
 
 You can download pretrained models here:
+https://drive.google.com/drive/folders/1sQaV1LYvmgDbtzhhtBFMavwcJyAI_C-H?usp=sharing
+ 
+It has all the models for each dataset. You can download them or copy them to your Google drive. The following link explains how to copy the shared folder to your Google drive: https://stackoverflow.com/questions/54351852/accessing-shared-with-me-with-colab
 
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
 ## Results
 
@@ -53,9 +51,3 @@ Our model achieves the following performance on :
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
