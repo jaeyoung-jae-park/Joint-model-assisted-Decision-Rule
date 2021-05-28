@@ -10,13 +10,13 @@ No requirements if you run the codes in Google Colab. The codes work properly wh
 Each jupyter notebook has the same table of contents.
 
 - Data preparation
---- Data loading
---- Label setting
+ - Data loading
+ - Label setting
 - Hyperparameter settings
---- Baseline
---- NN and NN-joint
---- CIDNN
---- Joint-model-assisted linear/nonlinear decision rules (LDR/NLDR)
+ - Baseline
+ - NN and NN-joint
+ - CIDNN
+ - Joint-model-assisted linear/nonlinear decision rules (LDR/NLDR)
 - Training
 - Evaluation
 
